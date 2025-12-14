@@ -32,6 +32,9 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+ i) module funct1(a,b,c,d,f1); input a,b,c,d; output f1; assign f1=((~b & ~d)|(~a & b & d)|(a & b &
+~c)); endmodule
+ii) module funct2(w,x,y,z,f2); input w,x,y,z; output f2; assign f2=((~y & z)|( w & y )|(x & y)); endmodule
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
@@ -39,14 +42,22 @@ Developed by: RegisterNumber:*/
 
 
 **RTL realization**
+<img width="1053" height="520" alt="Screenshot 2025-12-14 112710" src="https://github.com/user-attachments/assets/650e2d30-3200-4ab6-ab99-e8866a602dda" />
+
+
 
 **Output:**
+<img width="1121" height="580" alt="Screenshot 2025-12-14 112819" src="https://github.com/user-attachments/assets/4724e8a2-00d0-4d34-8919-8cb25fe77f08" />
+<img width="1108" height="582" alt="Screenshot 2025-12-14 112800" src="https://github.com/user-attachments/assets/8fce7786-ac81-4cc5-9790-a25ee980763d" />
+
+
+
 
 **RTL**
+<img width="1360" height="427" alt="Screenshot 2025-12-14 112847" src="https://github.com/user-attachments/assets/8946536f-2e71-4f53-98cc-d12ac3fed4a8" />
 
-**Timing Diagram**
+
 
 **Result:**
-
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
